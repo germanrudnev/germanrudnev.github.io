@@ -8,6 +8,7 @@ h1, h2, h3{margin: 0; padding: 0; font-weight: 400;}
 .landing__column-left{float:left; width: 660px;}
 .landing__header-subtitle{font-size:30px; color:#445161; margin-bottom: 25px; margin-top: -6px;}
 .landing__image{float:right; margin: 0; padding:0;}
+.landing__image iframe{border:0;}
 .landing__header._centred{text-align: center;}
 
 .landing__header-section, .landing__contacts{background: #445161; color:white;}
