@@ -17,6 +17,7 @@ h1, h2, h3{margin: 0; padding: 0; font-weight: 400;}
 .landing__header-title {font-size: 60px;}
 .landing__header-list {margin-top: 35px; font-size: 20px; margin-bottom: 0; padding-left: 36px;}
 .landing__header-list li{margin-bottom: 12px; list-style-image: url(../img/check.png); padding-left: 4px;}
+.landing__header-list a{color:white;}
 
 ._about .landing__header-subtitle{margin-bottom: 25px; margin-top: -6px;}
 ._about p{line-height: 23px; margin-bottom: 10px; margin-top: 13px;}
