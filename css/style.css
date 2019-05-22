@@ -8,6 +8,7 @@ h1, h2, h3{margin: 0; padding: 0; font-weight: 400;}
 .landing__column-left{float:left; width: 660px;}
 .landing__header-subtitle{font-size:30px; color:#445161; margin-bottom: 25px; margin-top: -6px;}
 .landing__image{float:right; margin: 0; padding:0;}
+.landing__image iframe{border:0;}
 .landing__header._centred{text-align: center;}
 
 .landing__header-section, .landing__contacts{background: #445161; color:white;}
@@ -141,7 +142,15 @@ a.landing__plan-button {
     margin-left: 2px;
 }
 
-.landing__contacts-form *{border-style: solid;}
+.landing__contacts-form fieldset, .landing__contacts-form legend{border: 0; padding: 0;}
+.landing__contacts-form fieldset{margin-bottom: 20px;}
+.landing__contacts-form legend{font-weight: 600; padding-bottom: 10px;}
+
+.landing__contacts-form *{border-style: solid; transition: 0.2s ease-in-out;}
+
+.landing__contacts-form input:valid, .landing__contacts-form textarea:valid{border-width: 2px; border-color: #19eb19; box-sizing: border-box; transition: 0.2s ease-in-out;} 
+
+.landing__contacts-form input:valid[type="submit"]{border-color: initial; border-width: initial;}
 
 .landing__contacts-form input {
      width: 100%;
