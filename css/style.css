@@ -18,6 +18,7 @@ h1, h2, h3{margin: 0; padding: 0; font-weight: 400;}
 .landing__header-title {font-size: 60px;}
 .landing__header-list {margin-top: 35px; font-size: 20px; margin-bottom: 0; padding-left: 36px;}
 .landing__header-list li{margin-bottom: 12px; list-style-image: url(../img/check.png); padding-left: 4px;}
+.landing__header-list a{color:white;}
 
 ._about .landing__header-subtitle{margin-bottom: 25px; margin-top: -6px;}
 ._about p{line-height: 23px; margin-bottom: 10px; margin-top: 13px;}
@@ -141,7 +142,15 @@ a.landing__plan-button {
     margin-left: 2px;
 }
 
-.landing__contacts-form *{border-style: solid;}
+.landing__contacts-form fieldset, .landing__contacts-form legend{border: 0; padding: 0;}
+.landing__contacts-form fieldset{margin-bottom: 20px;}
+.landing__contacts-form legend{font-weight: 600; padding-bottom: 10px;}
+
+.landing__contacts-form *{border-style: solid; transition: 0.2s ease-in-out;}
+
+.landing__contacts-form input:valid, .landing__contacts-form textarea:valid{border-width: 2px; border-color: #19eb19; box-sizing: border-box; transition: 0.2s ease-in-out;} 
+
+.landing__contacts-form input:valid[type="submit"]{border-color: initial; border-width: initial;}
 
 .landing__contacts-form input {
      width: 100%;

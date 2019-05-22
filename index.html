@@ -8,12 +8,12 @@
 </head>
 
 <body>
-    <main class="wrapper">
+    <div class="wrapper">
         <header class="landing__section landing__header-section">
             <div class="landing__column-left _header">
                 <h1 class="landing__header landing__header-title">Product Name</h1>
                 <ul class="landing__header-list">
-                    <li>Put on this page information about your product</li>
+                    <li><a href="background-video.html">Extra task: page with backgrounded video</a></li>
                     <li>A detailed description of your product</li>
                     <li>Tell us about the advantages and merits</li>
                     <li>Associate the page with the payment system</li>
@@ -30,7 +30,10 @@
                 <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
             </div>
             <figure class="landing__image">
-                <iframe width="430" height="245" src="https://www.youtube.com/embed/N-Z8eCYZod8" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <video poster="video/video_screenshot.jpg" width="430" height="245" controls>
+                    <source src="video/video.mp4" type="video/mp4">
+                    <source src="video/video.webm" type="video/webm">
+                </video>
             </figure>
         </section>
         <section class="landing__section _colored _advantages">
@@ -49,31 +52,31 @@
             <ul class="landing__list">
                 <li>
                     <img src="https://via.placeholder.com/200x150/445161/445161" alt="Screenshot">
-                    <div class="screenshot-content">
+                    <article class="screenshot-content">
                         <h3>The description for the image</h3>
                         <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
-                    </div>
+                    </article>
                 </li>
                 <li>
                     <img src="https://via.placeholder.com/200x150/445161/445161" alt="Screenshot">
-                    <div class="screenshot-content">
+                    <article class="screenshot-content">
                         <h3>The description for the image</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.</p>
-                    </div>
+                    </article>
                 </li>
                 <li>
                     <img src="https://via.placeholder.com/200x150/445161/445161" alt="Screenshot">
-                    <div class="screenshot-content">
+                    <article class="screenshot-content">
                         <h3>The description for the image</h3>
                         <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
-                    </div>
+                    </article>
                 </li>
                 <li>
-                    <div class="screenshot-content">
+                    <article class="screenshot-content">
                         <img src="https://via.placeholder.com/200x150/445161/445161" alt="Screenshot">
                         <h3>The description for the image</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.</p>
-                    </div>
+                    </article>
                 </li>
             </ul>
         </section>
@@ -164,9 +167,15 @@
             <h2 class="landing__header landing__header-subtitle _centred">Contacts</h2>
             <div class="contacts__container">
                 <form action="#" class="landing__contacts-form">
-                    <input type="text" class="name" placeholder="Your name:">
-                    <input type="text" class="email" placeholder="Your email:">
-                    <textarea name="message" cols="30" rows="10" placeholder="Your message:"></textarea>
+                    <fieldset>
+                        <legend>How can we reach you?</legend>
+                        <input type="text" class="name" placeholder="Your name:" required>
+                        <input type="email" class="email" placeholder="Your email:" required>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Your message</legend>
+                        <textarea name="message" cols="30" rows="10" placeholder="Your complaints and ideas for the website" required></textarea>
+                    </fieldset>
                     <input type="submit" class="submit" value="SEND">
                 </form>
                 <ul class="landing__phones">
@@ -182,7 +191,7 @@
         <footer class="landing__section landing__copyright">
             Copyright © 2014 Product name · PSD HTML CSS
         </footer>
-    </main>
+    </div>
 </body>
 
 </html>
