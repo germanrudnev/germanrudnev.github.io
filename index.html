@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Waxom</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400|Raleway:400,600,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400|Raleway:400,600,800|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -14,7 +15,7 @@
             <a href="#" class="header__logo" title="Waxom">Waxom</a>
             <ul class="header__menu">
                 <li class="header__menu-link"><a href="#">Home</a></li>
-                <li class="header__menu-link _active"><a href="#">About Us</a></li>
+                <li class="header__menu-link"><a href="#">About Us</a></li>
                 <li class="header__menu-link"><a href="#">Portfolio</a></li>
                 <li class="header__menu-link"><a href="#">Features</a></li>
                 <li class="header__menu-link"><a href="#">Blog</a></li>
@@ -22,17 +23,21 @@
                 <li class="header__menu-link"><a href="#">Shortcodes</a></li>
                 <li class="header__menu-link"><a href="#">Contact</a></li>
             </ul>
-            <a href="#" class="header__cart">Your Shopping Cart</a>
-            <a href="#" class="header__search-button">Search</a>
+            <div class="header__extra">
+                <a href="#" class="header__cart">Your Shopping Cart</a>
+                <a href="#" class="header__search-button">Search</a>
+            </div>
         </nav>
         <div class="header__slider">
             <figure class="slider__item"><img src="#" alt="" class="_responsive"></figure>
-            <figure class="slider__item _active"><img src="#" alt="" class="_responsive"></figure>
+            <figure class="slider__item _active"><img src="img/new/header__slider.jpg" alt="" class="_responsive"></figure>
             <figure class="slider__item"><img src="#" alt="" class="_responsive"></figure>
             <figure class="slider__item"><img src="#" alt="" class="_responsive"></figure>
             <figure class="slider__item"><img src="#" alt="" class="_responsive"></figure>
-            <button class="slider__prev" title="Previous Slide">Previous Slide</button>
-            <button class="slider__next" title="Next Slide">Next Slide</button>
+            <div class="slider__switchers">
+                <button class="slider__prev" title="Previous Slide">Previous Slide</button>
+                <button class="slider__next" title="Next Slide">Next Slide</button>
+            </div>
             <ul class="slider__buttons">
                 <li><button class="slider__button" title="Slide 1">Slide 1</button></li>
                 <li><button class="slider__button _active" title="Slide 2">Slide 2</button></li>
@@ -44,29 +49,29 @@
         <div class="header__text _wrapped">
             <span class="header__text-subheader">Unique and Modern Design</span>
             <h1 class="header__text-header">Portfolio PSD Template</h1>
-            <p class="header__text-paragraph">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
-            <a href="#" class="button">Get Started</a>
+            <p class="header__text-paragraph">Nam liber tempor cum soluta nobis eleifend option congue nihil imper&shy;diet doming id quod mazim placerat facer possim assum.</p>
+            <button class="button">Get Started</a>
         </div>
     </header>
     <section class="section__specialities bg_white">
         <ul class="flex-list _horizontal _specialities _wrapped">
             <li class="specialities__item">
-                <img src="#" alt="Web & App Design" class="specialities__icon" title="Web & App Design">
-                <h2 class="specialities__title">Web & App Design</h2>
+                <img src="img/new/specs_design.png" alt="Web & App Design" class="specialities__icon _design" title="Web & App Design">
+                <h2 class="specialities__title">Web &amp; App Design</h2>
                 <p class="specialities__desc">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
             </li>
             <li class="specialities__item">
-                <img src="#" alt="Development" class="specialities__icon" title="Development">
+                <img src="img/new/specs_dev.png" alt="Development" class="specialities__icon _dev" title="Development">
                 <h2 class="specialities__title">Development</h2>
                 <p class="specialities__desc">Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
             </li>
             <li class="specialities__item">
-                <img src="#" alt="Customization" class="specialities__icon" title="Customization">
+                <img src="img/new/specs_custom.png" alt="Customization" class="specialities__icon _custom" title="Customization">
                 <h2 class="specialities__title">Customization</h2>
                 <p class="specialities__desc">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
             </li>
             <li class="specialities__item">
-                <img src="#" alt="Marketing" class="specialities__icon" title="Marketing">
+                <img src="img/new/specs_marketing.png" alt="Marketing" class="specialities__icon _market" title="Marketing">
                 <h2 class="specialities__title">Marketing</h2>
                 <p class="specialities__desc">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
             </li>
@@ -74,11 +79,11 @@
     </section>
     <section class="section__templates bg_beige">
         <div class="header-w-subtitle _wrapped">
-        <h2>Waxom is Realization of your Ideas.</h2>
-        <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+            <h2>Waxom is Realization of your Ideas.</h2>
+            <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
         </div>
     </section>
-    <section class="section__purchase-theme">
+    <section class="section__purchase-theme bg_gradient">
         <div class="_wrapped">
             <div class="purchase__desc">
                 <h2><strong>Waxom</strong> Multipurpose WordPress Theme</h2>
@@ -89,7 +94,7 @@
             </div>
         </div>
     </section>
-    <section class="section__products">
+    <section class="section__projects">
         <div class="header-w-subtitle _wrapped">
             <h2>Our Latest Projects.</h2>
             <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
@@ -102,9 +107,9 @@
             <button>Photography</button>
         </div>
         <ul class="flex-list _w-wrap projects _wrapped">
-            <li>
+            <li class="project">
                 <article>
-                    <img src="" alt="" class="article__img _responsive">
+                    <img src="img/new/projects-1.png" alt="" class="article__img _responsive">
                     <div class="article__desc">
                         <h3 class="article__name">Claritas Etiam Processus</h3>
                         <ul class="article__tags">
@@ -114,9 +119,9 @@
                     </div>
                 </article>
             </li>
-            <li>
+            <li class="project">
                 <article>
-                    <img src="" alt="" class="article__img _responsive">
+                    <img src="img/new/projects-2.png" alt="" class="article__img _responsive">
                     <div class="article__desc">
                         <h3 class="article__name">Quam Nutamus Farum</h3>
                         <ul class="article__tags">
@@ -126,9 +131,9 @@
                     </div>
                 </article>
             </li>
-            <li>
+            <li class="project">
                 <article>
-                    <img src="" alt="" class="article__img _responsive">
+                    <img src="img/new/projects-3.png" alt="" class="article__img _responsive">
                     <div class="article__desc">
                         <h3 class="article__name">Usus Legentis Videntur</h3>
                         <ul class="article__tags">
@@ -138,9 +143,9 @@
                     </div>
                 </article>
             </li>
-            <li>
+            <li class="project">
                 <article>
-                    <img src="" alt="" class="article__img _responsive">
+                    <img src="img/new/projects-4.png" alt="" class="article__img _responsive">
                     <div class="article__desc">
                         <h3 class="article__name">Claritas Etiam Processus</h3>
                         <ul class="article__tags">
@@ -150,9 +155,9 @@
                     </div>
                 </article>
             </li>
-            <li>
+            <li class="project">
                 <article>
-                    <img src="" alt="" class="article__img _responsive">
+                    <img src="img/new/projects-5.png" alt="" class="article__img _responsive">
                     <div class="article__desc">
                         <h3 class="article__name">Quam Nutamus Farum</h3>
                         <ul class="article__tags">
@@ -162,9 +167,9 @@
                     </div>
                 </article>
             </li>
-            <li>
+            <li class="project">
                 <article>
-                    <img src="" alt="" class="article__img _responsive">
+                    <img src="img/new/projects-6.png" alt="" class="article__img _responsive">
                     <div class="article__desc">
                         <h3 class="article__name">Usus Legentis Videntur</h3>
                         <ul class="article__tags">
@@ -175,7 +180,9 @@
                 </article>
             </li>
         </ul>
-        <button class="button">Load More</button>
+        <div class="project__load-button _wrapped">
+            <button class="button">Load More</button>
+        </div>
         </div>
     </section>
     <section class="section__video">
@@ -190,44 +197,45 @@
     </section>
     <section class="section__mobile _wrapped">
         <div class="mobile__img">
-            <img src="" alt="Excellent for Mobile Devices" title="Excellent for Mobile Devices">
-            <div class="mobile__desc">
-                <h2>Excellent for Mobile Devices.</h2>
-                <p>Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
-                <ul class="list__arrows">
-                    <li>Nam liber tempor cum soluta nobis eleifend option;</li>
-                    <li>Option congue nihil imperdiet doming id quod mazim placerat facer;</li>
-                    <li>Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
-                    <li>Investigationes demonstraverunt lectores</li>
-                </ul>
-            </div>
+            <img src="img/new/mobile.png" alt="Excellent for Mobile Devices" title="Excellent for Mobile Devices">
+        </div>
+        <div class="mobile__desc">
+            <h2>Excellent for Mobile Devices.</h2>
+            <p>Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+            <ul class="list__arrows">
+                <li>Nam liber tempor cum soluta nobis eleifend option;</li>
+                <li>Option congue nihil imperdiet doming id quod mazim placerat facer;</li>
+                <li>Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
+                <li>Investigationes demonstraverunt lectores</li>
+            </ul>
+        </div>
         </div>
     </section>
     <section class="section__numbers bg_gradient">
         <ul class="flex-list _horizontal _numbers _wrapped">
-            <li class="number">
-                <img src="" alt="3587 satisfied clients" class="number__icon">
-                <strong class="number__number">3587</strong>
+            <li class="number__item">
+                <img src="img/new/numbers-1.png" alt="3587 satisfied clients" class="number__icon">
+                <strong class="number__digits">3587</strong>
                 <span class="number__desc">satisfied clients</span>
             </li>
-            <li class="number">
-                <img src="" alt="207 cups of coffee" class="number__icon">
-                <strong class="number__number">207</strong>
+            <li class="number__item">
+                <img src="img/new/numbers-2.png" alt="207 cups of coffee" class="number__icon">
+                <strong class="number__digits">207</strong>
                 <span class="number__desc">cups of coffee</span>
             </li>
-            <li class="number">
-                <img src="" alt="2500 blog posts" class="number__icon">
-                <strong class="number__number">2500</strong>
+            <li class="number__item">
+                <img src="img/new/numbers-3.png" alt="2500 blog posts" class="number__icon">
+                <strong class="number__digits">2500</strong>
                 <span class="number__desc">blog posts</span>
             </li>
-            <li class="number">
-                <img src="" alt="873 likes" class="number__icon">
-                <strong class="number__number">873</strong>
+            <li class="number__item">
+                <img src="img/new/numbers-4.png" alt="873 likes" class="number__icon">
+                <strong class="number__digits">873</strong>
                 <span class="number__desc">likes</span>
             </li>
-            <li class="number">
-                <img src="" alt="900 Cloche dishes we launched" class="number__icon">
-                <strong class="number__number">900</strong>
+            <li class="number__item">
+                <img src="img/new/numbers-5.png" alt="900 Cloche dishes we launched" class="number__icon">
+                <strong class="number__digits">900</strong>
                 <span class="number__desc">we launched</span>
             </li>
         </ul>
@@ -237,12 +245,12 @@
             <h2>Recent Posts.</h2>
             <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
         </div>
-        <ul class="flex-list _horizontal _slider posts _wrapped">
-            <li>
+        <ul class="flex-list _horizontal _slider mainpage-posts _wrapped">
+            <li class="mainpage-post">
                 <article>
                     <div class="article__img _gallery">
                         <figure class="slider__item"><img src="#" alt="" class="_responsive"></figure>
-                        <figure class="slider__item _active"><img src="#" alt="" class="_responsive"></figure>
+                        <figure class="slider__item _active"><img src="img/new/posts-1.png" alt="" class="_responsive"></figure>
                         <figure class="slider__item"><img src="#" alt="" class="_responsive"></figure>
                         <figure class="slider__item"><img src="#" alt="" class="_responsive"></figure>
                         <figure class="slider__item"><img src="#" alt="" class="_responsive"></figure>
@@ -254,7 +262,6 @@
                             <li><button class="slider__button" title="Slide 5">Slide 5</button></li>
                         </ul>
                     </div>
-                    <img src="" alt="" class="article__img _responsive">
                     <div class="article__time"><strong>30</strong><span>Sep.</span><time>September 30th, 2019</time></div>
                     <div class="article__desc">
                         <h3 class="article__name">Lorem ipsum dolor sit amet</h3>
@@ -263,9 +270,9 @@
                     </div>
                 </article>
             </li>
-            <li>
+            <li class="mainpage-post">
                 <article>
-                    <img src="" alt="" class="article__img _responsive">
+                    <img src="img/new/posts-2.png" alt="" class="article__img _responsive">
                     <div class="article__time"><strong>30</strong><span>Sep.</span><time>September 30th, 2019</time></div>
                     <div class="article__desc">
                         <h3 class="article__name">Lorem ipsum dolor sit amet</h3>
@@ -274,9 +281,9 @@
                     </div>
                 </article>
             </li>
-            <li>
+            <li class="mainpage-post">
                 <article>
-                    <img src="" alt="" class="article__img _responsive">
+                    <img src="img/new/posts-3.png" alt="" class="article__img _responsive">
                     <div class="article__time"><strong>30</strong><span>Sep.</span><time>September 30th, 2019</time></div>
                     <div class="article__desc">
                         <h3 class="article__name">Lorem ipsum dolor sit amet</h3>
@@ -289,18 +296,18 @@
     </section>
     <section class="section__logos">
         <ul class="flex-list _horizontal logos _wrapped">
-            <li class="logo"><img src="" alt="Logo 1" class="_responsive"></li>
-            <li class="logo"><img src="" alt="Logo 2" class="_responsive"></li>
-            <li class="logo"><img src="" alt="Logo 3" class="_responsive"></li>
-            <li class="logo"><img src="" alt="Logo 4" class="_responsive"></li>
+            <li class="logo"><img src="img/new/logo-1.png" alt="Logo 1" class="_responsive"></li>
+            <li class="logo"><img src="img/new/logo-2.png" alt="Logo 2" class="_responsive"></li>
+            <li class="logo"><img src="img/new/logo-3.png" alt="Logo 3" class="_responsive"></li>
+            <li class="logo"><img src="img/new/logo-4.png" alt="Logo 4" class="_responsive"></li>
         </ul>
     </section>
     <footer class="footer">
         <section class="footer__top flex-list _wrapped">
             <div class="footer__desc">
-                <a href="#" class="header__logo" title="Waxom">Waxom</a>
+                <a href="#" class="footer__logo" title="Waxom">Waxom</a>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem.</p>
-                        <a href="#" class="link__more">Read More</a>
+                <a href="#" class="link__more">Read More</a>
             </div>
             <div class="footer__list posts">
                 <h2>Recent Posts</h2>
@@ -337,24 +344,27 @@
                 </ul>
             </div>
             <div class="footer__dribbble">
+                <h2>Dribble Widget</h2>
                 <ul class="flex-list _w-wrap dribble-imgs">
-            <li class="dribble-img"><img src="" alt="Image 1" class="_responsive"></li>
-            <li class="dribble-img"><img src="" alt="Image 2" class="_responsive"></li>
-            <li class="dribble-img"><img src="" alt="Image 3" class="_responsive"></li>
-            <li class="dribble-img"><img src="" alt="Image 4" class="_responsive"></li>
-        </ul>
+                    <li class="dribble-img"><img src="img/new/dribbble-1.png" alt="Image 1" class="_responsive"></li>
+                    <li class="dribble-img"><img src="img/new/dribbble-2.png" alt="Image 2" class="_responsive"></li>
+                    <li class="dribble-img"><img src="img/new/dribbble-3.png" alt="Image 3" class="_responsive"></li>
+                    <li class="dribble-img"><img src="img/new/dribbble-4.png" alt="Image 4" class="_responsive"></li>
+                </ul>
             </div>
         </section>
-        <section class="footer__bottom flex-list _wrapped">
-            <div class="footer__bottom-left">Copyright © 2015 <a href="">Wacom</a>
-            <ul class="footer__bottom-menu">
-                <li class="footer__bottom-menu-link">
-                    <a href="">Privacy Policy</a>
-                    <a href="">FAQ</a>
-                    <a href="">Support</a>
-                </li>
-            </ul></div>
-            <div class="footer__bottom-right"><span class="designed">Designed by <a href="">ThemeFire</a><span class="envato">Only on <a href="">Envato Market</a></span></span></div>
+        <section class="footer__bottom">
+            <div class="flex-list _wrapped">
+                <div class="footer__bottom-left">Copyright © 2015 <a href="">Wacom</a>
+                    <ul class="footer__bottom-menu">
+                        <li class="footer__bottom-menu-link"><a href="">Privacy Policy</a></li>
+                        <li class="footer__bottom-menu-link"><a href="">FAQ</a></li>
+                        <li class="footer__bottom-menu-link"><a href="">Support</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__bottom-right"><span class="designed">Designed by <a href="">ThemeFire</a></span><span class="envato">Only on <a href="">Envato Market</a></span></div>
+            </div>
         </section>
     </footer>
 </body>
