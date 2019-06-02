@@ -3,213 +3,360 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Lesson 4 — Product Landing</title>
+    <title>Waxom</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400|Raleway:400,600,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/solid.css" integrity="sha384-ioUrHig76ITq4aEJ67dHzTvqjsAP/7IzgwE7lgJcg2r7BRNGYSK0LwSmROzYtgzs" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/brands.css" integrity="sha384-i2PyM6FMpVnxjRPi0KW/xIS7hkeSznkllv+Hx/MtYDaHA5VcF0yL3KVlvzp8bWjQ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/fontawesome.css" integrity="sha384-sri+NftO+0hcisDKgr287Y/1LVnInHJ1l+XC7+FOabmTTIK0HnE2ID+xxvJ21c5J" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="wrapper">
-        <header class="landing__section landing__header-section">
-            <div class="landing__column-left _header">
-                <h1 class="landing__header landing__header-title">Product Name</h1>
-                <ul class="landing__header-list">
-                    <li><a href="background-video.html">Extra task: page with backgrounded video</a></li>
-                    <li>A detailed description of your product</li>
-                    <li>Tell us about the advantages and merits</li>
-                    <li>Associate the page with the payment system</li>
+    <header class="header">
+        <nav class="header__navigation _wrapped">
+            <a href="#" class="header__logo" title="Waxom">Waxom</a>
+            <ul class="header__menu">
+                <li class="header__menu-link"><a href="#">Home</a></li>
+                <li class="header__menu-link _active"><a href="#">About Us</a></li>
+                <li class="header__menu-link"><a href="#">Portfolio</a></li>
+                <li class="header__menu-link"><a href="#">Features</a></li>
+                <li class="header__menu-link"><a href="#">Blog</a></li>
+                <li class="header__menu-link"><a href="#">Pricing</a></li>
+                <li class="header__menu-link"><a href="#">Shortcodes</a></li>
+                <li class="header__menu-link"><a href="#">Contact</a></li>
+            </ul>
+            <a href="#" class="header__cart">Your Shopping Cart</a>
+            <a href="#" class="header__search-button">Search</a>
+        </nav>
+        <div class="header__slider">
+            <figure class="slider__item"><img src="#" alt="" class="_responsive"></figure>
+            <figure class="slider__item _active"><img src="#" alt="" class="_responsive"></figure>
+            <figure class="slider__item"><img src="#" alt="" class="_responsive"></figure>
+            <figure class="slider__item"><img src="#" alt="" class="_responsive"></figure>
+            <figure class="slider__item"><img src="#" alt="" class="_responsive"></figure>
+            <button class="slider__prev" title="Previous Slide">Previous Slide</button>
+            <button class="slider__next" title="Next Slide">Next Slide</button>
+            <ul class="slider__buttons">
+                <li><button class="slider__button" title="Slide 1">Slide 1</button></li>
+                <li><button class="slider__button _active" title="Slide 2">Slide 2</button></li>
+                <li><button class="slider__button" title="Slide 3">Slide 3</button></li>
+                <li><button class="slider__button" title="Slide 4">Slide 4</button></li>
+                <li><button class="slider__button" title="Slide 5">Slide 5</button></li>
+            </ul>
+        </div>
+        <div class="header__text _wrapped">
+            <span class="header__text-subheader">Unique and Modern Design</span>
+            <h1 class="header__text-header">Portfolio PSD Template</h1>
+            <p class="header__text-paragraph">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+            <a href="#" class="button">Get Started</a>
+        </div>
+    </header>
+    <section class="section__specialities bg_white">
+        <ul class="flex-list _horizontal _specialities _wrapped">
+            <li class="specialities__item">
+                <img src="#" alt="Web & App Design" class="specialities__icon" title="Web & App Design">
+                <h2 class="specialities__title">Web & App Design</h2>
+                <p class="specialities__desc">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+            </li>
+            <li class="specialities__item">
+                <img src="#" alt="Development" class="specialities__icon" title="Development">
+                <h2 class="specialities__title">Development</h2>
+                <p class="specialities__desc">Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+            </li>
+            <li class="specialities__item">
+                <img src="#" alt="Customization" class="specialities__icon" title="Customization">
+                <h2 class="specialities__title">Customization</h2>
+                <p class="specialities__desc">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+            </li>
+            <li class="specialities__item">
+                <img src="#" alt="Marketing" class="specialities__icon" title="Marketing">
+                <h2 class="specialities__title">Marketing</h2>
+                <p class="specialities__desc">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+            </li>
+        </ul>
+    </section>
+    <section class="section__templates bg_beige">
+        <div class="header-w-subtitle _wrapped">
+        <h2>Waxom is Realization of your Ideas.</h2>
+        <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+        </div>
+    </section>
+    <section class="section__purchase-theme">
+        <div class="_wrapped">
+            <div class="purchase__desc">
+                <h2><strong>Waxom</strong> Multipurpose WordPress Theme</h2>
+                <p>Don't Forget to Rate the Template. Thanks so much!</p>
+            </div>
+            <div class="purchase__button">
+                <button class="button">Purchase Now</button>
+            </div>
+        </div>
+    </section>
+    <section class="section__products">
+        <div class="header-w-subtitle _wrapped">
+            <h2>Our Latest Projects.</h2>
+            <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+        </div>
+        <div class="projects__picker _wrapped">
+            <button class="_active">All</button>
+            <button>Web Design</button>
+            <button>Mobile App</button>
+            <button>Illustration</button>
+            <button>Photography</button>
+        </div>
+        <ul class="flex-list _w-wrap projects _wrapped">
+            <li>
+                <article>
+                    <img src="" alt="" class="article__img _responsive">
+                    <div class="article__desc">
+                        <h3 class="article__name">Claritas Etiam Processus</h3>
+                        <ul class="article__tags">
+                            <li><a href="#">Photography</a></li>
+                            <li><a href="#">Nature</a></li>
+                        </ul>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <img src="" alt="" class="article__img _responsive">
+                    <div class="article__desc">
+                        <h3 class="article__name">Quam Nutamus Farum</h3>
+                        <ul class="article__tags">
+                            <li><a href="#">Graphic Design</a></li>
+                            <li><a href="#">Mock-Up</a></li>
+                        </ul>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <img src="" alt="" class="article__img _responsive">
+                    <div class="article__desc">
+                        <h3 class="article__name">Usus Legentis Videntur</h3>
+                        <ul class="article__tags">
+                            <li><a href="#">Photography</a></li>
+                            <li><a href="#">Holiday</a></li>
+                        </ul>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <img src="" alt="" class="article__img _responsive">
+                    <div class="article__desc">
+                        <h3 class="article__name">Claritas Etiam Processus</h3>
+                        <ul class="article__tags">
+                            <li><a href="#">Photography</a></li>
+                            <li><a href="#">Nature</a></li>
+                        </ul>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <img src="" alt="" class="article__img _responsive">
+                    <div class="article__desc">
+                        <h3 class="article__name">Quam Nutamus Farum</h3>
+                        <ul class="article__tags">
+                            <li><a href="#">Graphic Design</a></li>
+                            <li><a href="#">Mock-Up</a></li>
+                        </ul>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <img src="" alt="" class="article__img _responsive">
+                    <div class="article__desc">
+                        <h3 class="article__name">Usus Legentis Videntur</h3>
+                        <ul class="article__tags">
+                            <li><a href="#">Photography</a></li>
+                            <li><a href="#">Holiday</a></li>
+                        </ul>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <button class="button">Load More</button>
+        </div>
+    </section>
+    <section class="section__video">
+        <div class="video__desc _wrapped">
+            <button class="video__icon" title="Play Video">Play</button>
+            <div class="header-w-subtitle">
+                <h2>Waxom Video Presentation</h2>
+                <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+            </div>
+            <span class="video__duration">03:26</span>
+        </div>
+    </section>
+    <section class="section__mobile _wrapped">
+        <div class="mobile__img">
+            <img src="" alt="Excellent for Mobile Devices" title="Excellent for Mobile Devices">
+            <div class="mobile__desc">
+                <h2>Excellent for Mobile Devices.</h2>
+                <p>Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+                <ul class="list__arrows">
+                    <li>Nam liber tempor cum soluta nobis eleifend option;</li>
+                    <li>Option congue nihil imperdiet doming id quod mazim placerat facer;</li>
+                    <li>Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
+                    <li>Investigationes demonstraverunt lectores</li>
                 </ul>
             </div>
-            <figure class="landing__image">
-                <img src="img/hero.jpg" alt="Product Name">
-            </figure>
-        </header>
-        <section class="landing__section _about">
-            <div class="landing__column-left">
-                <h2 class="landing__header landing__header-subtitle">About your product</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.</p>
-                <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
+        </div>
+    </section>
+    <section class="section__numbers bg_gradient">
+        <ul class="flex-list _horizontal _numbers _wrapped">
+            <li class="number">
+                <img src="" alt="3587 satisfied clients" class="number__icon">
+                <strong class="number__number">3587</strong>
+                <span class="number__desc">satisfied clients</span>
+            </li>
+            <li class="number">
+                <img src="" alt="207 cups of coffee" class="number__icon">
+                <strong class="number__number">207</strong>
+                <span class="number__desc">cups of coffee</span>
+            </li>
+            <li class="number">
+                <img src="" alt="2500 blog posts" class="number__icon">
+                <strong class="number__number">2500</strong>
+                <span class="number__desc">blog posts</span>
+            </li>
+            <li class="number">
+                <img src="" alt="873 likes" class="number__icon">
+                <strong class="number__number">873</strong>
+                <span class="number__desc">likes</span>
+            </li>
+            <li class="number">
+                <img src="" alt="900 Cloche dishes we launched" class="number__icon">
+                <strong class="number__number">900</strong>
+                <span class="number__desc">we launched</span>
+            </li>
+        </ul>
+    </section>
+    <section class="section__posts">
+        <div class="header-w-subtitle _wrapped">
+            <h2>Recent Posts.</h2>
+            <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+        </div>
+        <ul class="flex-list _horizontal _slider posts _wrapped">
+            <li>
+                <article>
+                    <div class="article__img _gallery">
+                        <figure class="slider__item"><img src="#" alt="" class="_responsive"></figure>
+                        <figure class="slider__item _active"><img src="#" alt="" class="_responsive"></figure>
+                        <figure class="slider__item"><img src="#" alt="" class="_responsive"></figure>
+                        <figure class="slider__item"><img src="#" alt="" class="_responsive"></figure>
+                        <figure class="slider__item"><img src="#" alt="" class="_responsive"></figure>
+                        <ul class="slider__buttons">
+                            <li><button class="slider__button" title="Slide 1">Slide 1</button></li>
+                            <li><button class="slider__button _active" title="Slide 2">Slide 2</button></li>
+                            <li><button class="slider__button" title="Slide 3">Slide 3</button></li>
+                            <li><button class="slider__button" title="Slide 4">Slide 4</button></li>
+                            <li><button class="slider__button" title="Slide 5">Slide 5</button></li>
+                        </ul>
+                    </div>
+                    <img src="" alt="" class="article__img _responsive">
+                    <div class="article__time"><strong>30</strong><span>Sep.</span><time>September 30th, 2019</time></div>
+                    <div class="article__desc">
+                        <h3 class="article__name">Lorem ipsum dolor sit amet</h3>
+                        <p class="article__excerpt">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                        <a href="#" class="link__more">Read More</a>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <img src="" alt="" class="article__img _responsive">
+                    <div class="article__time"><strong>30</strong><span>Sep.</span><time>September 30th, 2019</time></div>
+                    <div class="article__desc">
+                        <h3 class="article__name">Lorem ipsum dolor sit amet</h3>
+                        <p class="article__excerpt">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                        <a href="#" class="link__more">Read More</a>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <img src="" alt="" class="article__img _responsive">
+                    <div class="article__time"><strong>30</strong><span>Sep.</span><time>September 30th, 2019</time></div>
+                    <div class="article__desc">
+                        <h3 class="article__name">Lorem ipsum dolor sit amet</h3>
+                        <p class="article__excerpt">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                        <a href="#" class="link__more">Read More</a>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
+    <section class="section__logos">
+        <ul class="flex-list _horizontal logos _wrapped">
+            <li class="logo"><img src="" alt="Logo 1" class="_responsive"></li>
+            <li class="logo"><img src="" alt="Logo 2" class="_responsive"></li>
+            <li class="logo"><img src="" alt="Logo 3" class="_responsive"></li>
+            <li class="logo"><img src="" alt="Logo 4" class="_responsive"></li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <section class="footer__top flex-list _wrapped">
+            <div class="footer__desc">
+                <a href="#" class="header__logo" title="Waxom">Waxom</a>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem.</p>
+                        <a href="#" class="link__more">Read More</a>
             </div>
-            <figure class="landing__image">
-                <video poster="video/video_screenshot.jpg" width="430" height="245" controls>
-                    <source src="video/video.mp4" type="video/mp4">
-                    <source src="video/video.webm" type="video/webm">
-                </video>
-            </figure>
-        </section>
-        <section class="landing__section _colored _advantages">
-            <h2 class="landing__header landing__header-subtitle _centred">Advantages and benefits</h2>
-            <ul class="landing__list _pluses">
-                <li>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
-                <li>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
-                <li>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
-                <li>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
-                <li>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
-                <li>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
-            </ul>
-        </section>
-        <section class="landing__section _screenshots">
-            <h2 class="landing__header landing__header-subtitle _centred">Screenshots</h2>
-            <ul class="landing__list">
-                <li>
-                    <article class="screenshot-content">
-                        <img src="img/screenshots/screenshot-1.jpg" alt="Screenshot">
-                        <h3>The description for the image</h3>
-                        <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
-                    </article>
-                </li>
-                <li>
-                    <article class="screenshot-content">
-                        <img src="img/screenshots/screenshot-2.jpg" alt="Screenshot">
-                        <h3>The description for the image</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.</p>
-                    </article>
-                </li>
-                <li>
-                    <article class="screenshot-content">
-                        <img src="img/screenshots/screenshot-3.jpg" alt="Screenshot">
-                        <h3>The description for the image</h3>
-                        <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
-                    </article>
-                </li>
-                <li>
-                    <article class="screenshot-content">
-                        <img src="img/screenshots/screenshot-4.jpg" alt="Screenshot">
-                        <h3>The description for the image</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.</p>
-                    </article>
-                </li>
-            </ul>
-        </section>
-        <section class="landing__section _colored">
-            <h2 class="landing__header landing__header-subtitle _centred">Reviews</h2>
-            <ul class="landing__list _reviews">
-                <li class="landing__review">
-                    <img src="img/reviews/icon-1.jpg" alt="User">
-                    <blockquote>
-                        <p>Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
-                        <cite>Lourens S.</cite>
-                    </blockquote>
-                </li>
-                <li class="landing__review">
-                    <img src="img/reviews/icon-2.jpg" alt="User">
-                    <blockquote>
-                        <p>Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
-                        <cite>Lourens S.</cite>
-                    </blockquote>
-                </li>
-                <li class="landing__review">
-                    <img src="img/reviews/icon-3.jpg" alt="User">
-                    <blockquote>
-                        <p>Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
-                        <cite>Lourens S.</cite>
-                    </blockquote>
-                </li>
-                <li class="landing__review">
-                    <img src="img/reviews/icon-4.jpg" alt="User">
-                    <blockquote>
-                        <p>Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
-                        <cite>Lourens S.</cite>
-                    </blockquote>
-                </li>
-            </ul>
-        </section>
-        <section class="landing__section">
-            <h2 class="landing__header landing__header-subtitle _centred">Buy It Now</h2>
-            <ul class="landing__prices">
-                <li class="landing__prices-plan">
-                    <h3 class="landing__plan-header">Standard</h3>
-                    <span class="landing__plan-price">$100</span>
-                    <ol class="landing__plan-list">
-                        <li>Porro officia cumque sint deleniti;</li>
-                        <li>Тemo facere rem vitae odit;</li>
-                        <li>Cum odio, iste quia doloribus autem;</li>
-                        <li>Aperiam nulla ea neque.</li>
-                    </ol>
-                    <a href="#" class="landing__plan-button">Buy</a>
-                </li>
-                <li class="landing__prices-plan">
-                    <h3 class="landing__plan-header">Premium</h3>
-                    <span class="landing__plan-price">$150</span>
-                    <ol class="landing__plan-list">
-                        <li>Porro officia cumque sint deleniti;</li>
-                        <li>Тemo facere rem vitae odit;</li>
-                        <li>Cum odio, iste quia doloribus autem;</li>
-                        <li>Aperiam nulla ea neque.</li>
-                        <li>Porro officia cumque sint deleniti;</li>
-                        <li>Тemo facere rem vitae odit;</li>
-                        <li>Cum odio, iste quia doloribus autem;</li>
-                        <li>Aperiam nulla ea neque.</li>
-                    </ol>
-                    <a href="#" class="landing__plan-button">Buy</a>
-                </li>
-                <li class="landing__prices-plan">
-                    <h3 class="landing__plan-header">Lux</h3>
-                    <span class="landing__plan-price">$200</span>
-                    <ol class="landing__plan-list">
-                        <li>Porro officia cumque sint deleniti;</li>
-                        <li>Тemo facere rem vitae odit;</li>
-                        <li>Cum odio, iste quia doloribus autem;</li>
-                        <li>Aperiam nulla ea neque.</li>
-                        <li>Porro officia cumque sint deleniti;</li>
-                        <li>Тemo facere rem vitae odit;</li>
-                        <li>Cum odio, iste quia doloribus autem;</li>
-                        <li>Aperiam nulla ea neque.</li>
-                        <li>Porro officia cumque sint deleniti;</li>
-                        <li>Тemo facere rem vitae odit;</li>
-                        <li>Cum odio, iste quia doloribus autem;</li>
-                        <li>Aperiam nulla ea neque.</li>
-                    </ol>
-                    <a href="#" class="landing__plan-button">Buy</a>
-                </li>
-            </ul>
-        </section>
-        <section class="landing__section landing__contacts">
-            <h2 class="landing__header landing__header-subtitle _centred">Contacts</h2>
-            <div class="contacts__container">
-                <form action="#" class="landing__contacts-form">
-                    <fieldset>
-                        <legend>How can we reach you?</legend>
-                        <input type="text" class="name" placeholder="Your name:" required>
-                        <input type="email" class="email" placeholder="Your email:" required>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Your message</legend>
-                        <textarea name="message" cols="30" rows="10" placeholder="Your complaints and ideas for the website" required></textarea>
-                    </fieldset>
-                    <input type="submit" class="submit" value="SEND">
-                </form>
-                <ul class="landing__phones">
-                    <li><span class="icon _skype" title="Skype"><i class="fab fa-skype"></i></span><a href="#">here_your_login_skype</a></li>
-                    <li><span class="icon _telegram" title="Telegram"><i class="fab fa-telegram-plane"></i></span><a href="#">@psdhtmlcss</a></li>
-                    <li><span class="icon _email" title="Email"><i class="fas fa-envelope"></i></span><a href="#">psdhtmlcss@mail.ru</a></li>
-                    <li><span class="icon _phone" title="Phone"><i class="fas fa-phone"></i></span><a href="#">80 00 4568 55 55</a></li>
+            <div class="footer__list posts">
+                <h2>Recent Posts</h2>
+                <ul class="flex-list _vertical posts">
+                    <li class="post">
+                        <time>September 08, 2015</time>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                    </li>
+                    <li class="post">
+                        <time>September 08, 2015</time>
+                        <p>Diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+                    </li>
+                    <li class="post">
+                        <time>September 08, 2015</time>
+                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima</p>
+                    </li>
                 </ul>
-                <div class="landing__socials">
-                    <a href="#" title="Twitter" class="landing__link">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#" title="Facebook" class="landing__link">
-                        <i class="fab fa-facebook-square"></i>
-                    </a>
-                    <a href="#" title="LinkedIn" class="landing__link">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="#" title="Google+" class="landing__link">
-                        <i class="fab fa-google-plus-g"></i>
-                    </a>
-                    <a href="#" title="YouTube" class="landing__link">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                </div>
+            </div>
+            <div class="footer__list tweets">
+                <h2>Our Twitter</h2>
+                <ul class="flex-list _vertical tweets">
+                    <li class="post">
+                        <time>3 mins ago</time>
+                        <p><a href="#" class="twitter">@waxom</a> Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
+                    </li>
+                    <li class="post">
+                        <time>5 hours ago</time>
+                        <p>Mirum est <a href="#" class="twitter">#envato</a> notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum</p>
+                    </li>
+                    <li class="post">
+                        <time>20 days ago</time>
+                        <p>Soluta nobis option <a href="">bit.ly/1Hniso7</a></p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__dribbble">
+                <ul class="flex-list _w-wrap dribble-imgs">
+            <li class="dribble-img"><img src="" alt="Image 1" class="_responsive"></li>
+            <li class="dribble-img"><img src="" alt="Image 2" class="_responsive"></li>
+            <li class="dribble-img"><img src="" alt="Image 3" class="_responsive"></li>
+            <li class="dribble-img"><img src="" alt="Image 4" class="_responsive"></li>
+        </ul>
             </div>
         </section>
-        <footer class="landing__section landing__copyright">
-            Copyright © 2014 Product name · PSD HTML CSS
-        </footer>
-    </div>
+        <section class="footer__bottom flex-list _wrapped">
+            <div class="footer__bottom-left">Copyright © 2015 <a href="">Wacom</a>
+            <ul class="footer__bottom-menu">
+                <li class="footer__bottom-menu-link">
+                    <a href="">Privacy Policy</a>
+                    <a href="">FAQ</a>
+                    <a href="">Support</a>
+                </li>
+            </ul></div>
+            <div class="footer__bottom-right"><span class="designed">Designed by <a href="">ThemeFire</a><span class="envato">Only on <a href="">Envato Market</a></span></span></div>
+        </section>
+    </footer>
 </body>
 
 </html>
