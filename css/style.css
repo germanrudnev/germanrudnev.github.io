@@ -150,6 +150,9 @@ button {
   font-size: 14px;
   line-height: 55px;
 }
+.header__menu a strong {
+  text-decoration: underline;
+}
 
 .header__extra {
   flex-basis: 68px;
